@@ -32,10 +32,6 @@ This project demonstrates real-world DevOps, automation, observability, and Pyth
     "name": "Home Page",
     "url": "https://designersmovingservice.com",
     "expected_text": "For a seamless and stress-free move"
-  },
-  {
-    "name": "Quote Page",
-    "url": "https://designersmovingservice.com/get-a-quote"
   }
 ]
 ---
