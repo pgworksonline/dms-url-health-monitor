@@ -4,6 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![CI](https://github.com/pgworksonline/dms-url-health-monitor/actions/workflows/ci.yml/badge.svg)
+[🌐 View Live Status Dashboard](https://pgworksonline.github.io/dms-url-health-monitor/)
 ---
 A DevOps-focused Python tool for automated website health monitoring, uptime validation, content verification, latency measurement, and CI-driven reliability testing.
 This project demonstrates real-world DevOps, automation, observability, and Python engineering skills.
