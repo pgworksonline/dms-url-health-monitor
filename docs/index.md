@@ -42,4 +42,4 @@ The checks are run automatically via GitHub Actions.
 - **Repository:** https://github.com/PGWORKSONLINE/dms-url-health-monitor  
 - **CI Workflow:** https://github.com/PGWORKSONLINE/dms-url-health-monitor/actions  
 - **Main Site:** https://designersmovingservice.com  
-- **Quote Page:** https://designersmovingservice.com/get-a-quote
+- **Quote Page:** https://designersmovingservice.com/getaquote
