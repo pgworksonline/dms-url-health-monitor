@@ -1,0 +1,33 @@
+2025-11-27 09:10:20,249 [WARNING] [CONTENT MISSING] Home Page – expected text not found: 'For a seamless and stress-free move'
+2025-11-27 09:10:20,249 [INFO] [ISSUE] Home Page – https://designersmovingservice.com/ | status=200 | 631.2ms
+2025-11-27 09:10:20,253 [WARNING] One or more DMS pages have issues 
+2025-11-27 13:48:08,919 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 416.2ms
+2025-11-27 13:48:08,923 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:36,525 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 999.6ms
+2025-11-30 09:30:36,527 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:42,793 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 405.7ms
+2025-11-30 09:30:42,798 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:44,131 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 350.1ms
+2025-11-30 09:30:44,135 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:45,170 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 293.5ms
+2025-11-30 09:30:45,174 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:46,116 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 308.8ms
+2025-11-30 09:30:46,121 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:47,078 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 295.2ms
+2025-11-30 09:30:47,081 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:48,017 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 293.5ms
+2025-11-30 09:30:48,021 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:49,794 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 300.0ms
+2025-11-30 09:30:49,798 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:50,861 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 273.1ms
+2025-11-30 09:30:50,865 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:52,161 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 287.9ms
+2025-11-30 09:30:52,165 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:53,090 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 293.0ms
+2025-11-30 09:30:53,094 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:53,956 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 293.2ms
+2025-11-30 09:30:53,961 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:54,786 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 322.2ms
+2025-11-30 09:30:54,791 [INFO] All DMS pages look healthy ✔️
+2025-11-30 09:30:55,677 [INFO] [UP] Home Page – https://designersmovingservice.com/ | status=200 | 303.3ms
+2025-11-30 09:30:55,682 [INFO] All DMS pages look healthy ✔️
