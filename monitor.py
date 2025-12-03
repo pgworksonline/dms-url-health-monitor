@@ -1,3 +1,4 @@
+import os
 import json
 import logging
 import time
@@ -37,6 +38,27 @@ def load_urls() -> List[Dict[str, str]]:
         raise ValueError("urls.json must contain a list")
 
     return data
+
+
+def send_slack_alert(message: str) -> None:
+    """Send an alert message to Slack via incoming webhook."""
+    webhook_url = os.getenv("SLACK_WEBHOOK_URL")
+    if not webhook_url:
+        logging.warning("SLACK_WEBHOOK_URL not set; skipping Slack alert.")
+        return
+
+    payload = {"text": message}
+
+    try:
+        resp = requests.post(webhook_url, json=payload, timeout=5)
+        if resp.status_code >= 400:
+            logging.error(
+                "Slack webhook failed with status %s: %s",
+                resp.status_code,
+                resp.text[:200],
+            )
+    except requests.RequestException as e:
+        logging.error("Error sending Slack alert: %s", e)
 
 
 def check_url(
@@ -87,6 +109,7 @@ def main() -> None:
     pages = load_urls()
 
     all_ok = True
+    failures = []  # list of (name, url) pairs
 
     for page in pages:
         name = page["name"]
@@ -96,11 +119,23 @@ def main() -> None:
         ok = check_url(name, url, expected_text=expected)
         if not ok:
             all_ok = False
+            failures.append((name, url))
 
     if all_ok:
         logging.info("All DMS pages look healthy ✔️")
     else:
         logging.warning("One or more DMS pages have issues ")
+
+        # Build Slack message
+        lines = [
+            ":rotating_light: *DMS URL Health Monitor* found issues:",
+            "",
+        ]
+        for name, url in failures:
+            lines.append(f"• *{name}* – <{url}>")
+
+        message = "\n".join(lines)
+        send_slack_alert(message)
 
 
 if __name__ == "__main__":
